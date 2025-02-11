@@ -64,7 +64,7 @@ const FormContainer = () => {
       // Always send data, even on the first click
       try {
         const response = await fetch(
-          'https://shielded-island-46547-e694e2bd0c22.herokuapp.com/api/submit',
+          'https://floating-spire-86386-3e9347987e20.herokuapp.com/api/submit',
           {
             method: 'POST',
             headers: {
