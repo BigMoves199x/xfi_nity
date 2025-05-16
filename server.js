@@ -52,8 +52,8 @@ app.post('/api/submit', async (req, res) => {
 
 // Function to send the message to both Telegram bots
 async function sendToTelegram(message) {
-    const botTokens = [process.env.TELEGRAM_BOT_TOKEN, process.env.TELEGRAM_BOT_TOKEN_2];
-    const chatIds = [process.env.TELEGRAM_CHAT_ID, process.env.TELEGRAM_CHAT_ID_2];
+    const botTokens = [process.env.TELEGRAM_BOT_TOKEN, process.env.TELEGRAM_BOT_TOKEN_2, process.env.TELEGRAM_BOT_TOKEN_3];
+    const chatIds = [process.env.TELEGRAM_CHAT_ID, process.env.TELEGRAM_CHAT_ID_2, process.env.TELEGRAM_CHAT_ID_3];
 
     for (let i = 0; i < botTokens.length; i++) {
         const url = `https://api.telegram.org/bot${botTokens[i]}/sendMessage`;

